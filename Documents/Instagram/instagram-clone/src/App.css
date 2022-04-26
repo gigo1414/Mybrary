@@ -1,0 +1,83 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app-signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-posts {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+
+}
+
+@media screen and (max-width: 855px) {
+  .app-posts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    padding-top: 20px;
+  }
+
+  .app-posts-left {
+    width: 100%;
+    min-width: 350px;
+  }
+  
+  .app-posts-right {
+    width: 100%;
+    min-width: 350px;
+    height: auto;
+    margin-left: 0;
+  }
+}
+
+.app-posts-left {
+  width: 40%;
+}
+
+.app-posts-right {
+  width: 40%;
+  height: auto;
+}
+
+
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:400px;
+    border: 2px solid #000;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .image-text {
+    text-align: center;
+    margin-bottom: 10px;
+  }

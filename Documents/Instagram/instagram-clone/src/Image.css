@@ -1,0 +1,23 @@
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+progress {
+    width: 100%;
+}
+
+.caption {
+    width: 100%;
+    padding: 2px;
+}
+
+.file {
+    padding: 4px;
+}
