@@ -1,0 +1,42 @@
+@import 'shared/variables.css';
+@import 'shared/header.css';
+@import 'shared/buttons.css';
+@import 'shared/form.css';
+@import 'shared/author.css';
+@import 'shared/books.css';
+
+:root {
+  font-family: 'Noto Sans KR';
+  font-size: 16px;
+  color: var(--color-text-light);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./mybrary-image.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.inner-container {
+  margin: 0 2rem;
+}
+
+.page-header {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.error-message {
+  color: hsl(var(--color-danger-hue), 100%, 50%);
+}
